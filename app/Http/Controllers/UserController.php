@@ -16,18 +16,15 @@ class UserController extends Controller
     {
 
         
-
+        
         $request->validate([
+            
             'name'=>'required',
             
             'phone_number'=>'required',
             'email'=>'required|email',
             'password'=>'required|confirmed'
         ]);
-
-        if ($request->fails()) {
-            $response['response'] = $request->messages();
-        }
 
         $user=User::create([
             'name'=>$request->name,
@@ -41,17 +38,17 @@ class UserController extends Controller
             'token'=>$token
         ],201);
     }
-    // public function logout(){
+    public function logout(){
 
-    //     auth()->user()->tokens()->delete();
-    //     return response([
-    //         'message'=>'successfully logged out!'
-    //     ]);
+        auth()->user()->tokens()->delete();
+        return response([
+            'message'=>'successfully logged out!'
+        ]);
 
-    // }
+    }
     public function login(Request $request){
         $request->validate([
-            'phone_number'=>'required|email',
+            'phone_number'=>'required',
             'password'=>'required'
         ]);
         $user=User::where('phone_number',$request->phone_number)->first();
@@ -76,7 +73,7 @@ class UserController extends Controller
         return $request->user();
 
     }
-
+    
 
 
 
