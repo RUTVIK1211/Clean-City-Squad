@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\OtpController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ComplaintsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,14 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [UserController::class, 'logout']);
 
 });
+
+Route::get('/getallComplaints',[ComplaintsController::class,'getallComplaints']);
+
+Route::post('/postComplaint',[ComplaintsController::class,'postComplaint']);
+
+Route::get('/getComplaint/{id}',[ComplaintsController::class,'getComplaintById']);
+
+Route::put('/updateComplaint{id}',[ComplaintsController::class,'updateComplaint']);
+
+Route::delete('/deleteComplaint{id}',[ComplaintsController::class,'deleteComplaint']);
+
