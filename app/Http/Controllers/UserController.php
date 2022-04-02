@@ -6,8 +6,8 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 use Laravel\Sanctum\HasApiTokens;
+use Nexmo\Laravel\Facade\Nexmo;
 
 class UserController extends Controller
 {
@@ -23,29 +23,42 @@ class UserController extends Controller
     public function register(Request $request)
     {
 
+        $request->validate([
+            'name' => 'required',
+            'phone_number' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|confirmed',
+        ]);
+
+        
+        $otp = rand(100000,999999);
+
         try {
-            $request->validate([
-                'name' => 'required',
-                'phone_number' => 'required',
-                'email' => 'required|email',
-                'password' => 'required|confirmed',
+            Nexmo::message()->send([
+                'to' => '919638824606',
+                'from' => '919638824606',
+                'text' => $otp,
             ]);
 
-            $user = User::create([
-                'name' => $request->name,
-                'phone_number' => $request->phone_number,
-                'email' => $request->email,
-                'password' => Hash::make($request->password),
-            ]);
-            $token = $user->createToken('myToken')->plainTextToken;
-            return response([
-                'user' => $user,
-                'token' => $token,
-            ], 201);
-        } catch (ValidationException $th) {
-            return response($th->errors());
+            return response('OTP sent successfully!',200);
+
+        
+        } catch (\Throwable $th) {
+            return response('There was an error in sending the OTP.', 500);
         }
 
+
+        // $user = User::create([
+        //     'name' => $request->name,
+        //     'phone_number' => $request->phone_number,
+        //     'email' => $request->email,
+        //     'password' => Hash::make($request->password),
+        // ]);
+        // $token = $user->createToken('myToken')->plainTextToken;
+        // return response([
+        //     'user' => $user,
+        //     'token' => $token,
+        // ], 201);
     }
 
     /**
@@ -56,26 +69,23 @@ class UserController extends Controller
      */
     public function login(Request $request)
     {
-        try {
-            $request->validate([
-                'phone_number' => 'required',
-                'password' => 'required',
-            ]);
-            $user = User::where('phone_number', $request->phone_number)->first();
-            if (!$user || !Hash::check($request->password, $user->password)) {
-                return response([
-                    'message' => 'Invalid credentials',
-                ], 401);
-            }
-
-            $token = $user->createToken('myToken')->plainTextToken;
+        $request->validate([
+            'phone_number' => 'required',
+            'password' => 'required',
+        ]);
+        $user = User::where('phone_number', $request->phone_number)->first();
+        if (!$user || !Hash::check($request->password, $user->password)) {
             return response([
-                //'user'=>$user,
-                'token' => $token,
-            ], 200);
-        } catch (ValidationException $th) {
-            return response($th->errors());
+                'message' => 'Invalid credentials',
+            ], 401);
         }
+
+        $token = $user->createToken('myToken')->plainTextToken;
+        return response([
+            //'user'=>$user,
+            'token' => $token,
+        ], 200);
+
     }
 
     /**
@@ -86,14 +96,10 @@ class UserController extends Controller
     public function logout()
     {
 
-        try {
-            auth()->user()->tokens()->delete();
-            return response([
-                'message' => 'successfully logged out!',
-            ]);
-        } catch (\Throwable $th) {
-            return response('Logout unsuccessful');
-        }
+        auth()->user()->tokens()->delete();
+        return response([
+            'message' => 'successfully logged out!',
+        ]);
 
     }
 

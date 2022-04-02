@@ -16,7 +16,7 @@ class AddAreaIdToUsersTable extends Migration
         Schema::table('users', function (Blueprint $table) {
             //
             $table->unsignedBigInteger('area_id');
-            $table->foreign('area_id')->references('id')->on('areas');
+            $table->foreign('area_id')->references('id')->on('areas')->onDelete('cascade')->nullable();
         });
     }
 

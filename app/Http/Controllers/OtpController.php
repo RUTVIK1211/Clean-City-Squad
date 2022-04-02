@@ -17,14 +17,16 @@ class OtpController extends Controller
     public function otpGeneration()
     {
 
+        $otp = rand(100000,999999);
+
         try {
             Nexmo::message()->send([
-                'to' => '9191066h64085',
+                'to' => '919106664085',
                 'from' => '919638824606',
-                'text' => '',
+                'text' => $otp,
             ]);
 
-            dd('SMS Sent Successfully.');
+            
 
         } catch (\Throwable $th) {
             return response('There was an error in sending the OTP.', 500);
