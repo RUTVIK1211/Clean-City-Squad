@@ -1,19 +1,33 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\User;
-use Illuminate\Support\Facades\Redirect;
-use Laravel\Sanctum\HasApiTokens;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Auth;
 
+use Laravel\Sanctum\HasApiTokens;
+use Nexmo\Laravel\Facade\Nexmo;
 
 class OtpController extends Controller
 {
     //
     use HasApiTokens;
-    public function otp_generation(){
-        
+    /**
+     * Otp generation function
+     *
+     * @return void
+     */
+    public function otpGeneration()
+    {
+
+        try {
+            Nexmo::message()->send([
+                'to' => '9191066h64085',
+                'from' => '919638824606',
+                'text' => '',
+            ]);
+
+            dd('SMS Sent Successfully.');
+
+        } catch (\Throwable $th) {
+            return response('There was an error in sending the OTP.', 500);
+        }
     }
 }

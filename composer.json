@@ -9,9 +9,11 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
+        "laravel/nexmo-notification-channel": "^2.5",
         "laravel/sanctum": "^2.15",
         "laravel/tinker": "^2.5",
         "nexmo/client": "^2.4",
+        "seshac/otp-generator": "^0.0.7",
         "twilio/sdk": "^6.36"
     },
     "require-dev": {
