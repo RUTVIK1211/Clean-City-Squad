@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\StudentController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Student;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,6 +16,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::post('/register',[UserController::class,'register']);
+Route::post('/login',[UserController::class,'login']);
+// Route::get('/unautherize',function(Request $request){
+//     return response()->json([
+//         'code'=>401,'message'=>'U r not authorized'
+//     ]);
+// })->name('unautherize');
+//protected routes
+
+Route::middleware('auth:sanctum')->group(function(){
+    
+
+Route::post('/logout',[UserController::class,'logout']);
+Route::get('/myinfo',[UserController::class,'index']);
+
 });
+
