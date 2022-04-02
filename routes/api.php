@@ -2,9 +2,8 @@
 
 use App\Http\Controllers\OtpController;
 use App\Http\Controllers\UserController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Models\Student;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,22 +13,16 @@ use App\Models\Student;
 | routes are loaded by the RouteServiceProvider within a group which
 | is assigned the "api" middleware group. Enjoy building your API!
 |
-*/
+ */
 
-Route::post('/register',[UserController::class,'register']);
-Route::post('/login',[UserController::class,'login']);
-// Route::get('/unautherize',function(Request $request){
-//     return response()->json([
-//         'code'=>401,'message'=>'U r not authorized'
-//     ]);
-// })->name('unautherize');
+Route::post('/register', [UserController::class, 'register']);
+Route::post('/login', [UserController::class, 'login']);
+
 //protected routes
 
-Route::middleware('auth:sanctum')->group(function(){
-    
-Route::get('/otp_generation',[OtpController::class,'/otp_generation']);
-Route::post('/logout',[UserController::class,'logout']);
-Route::get('/myinfo',[OtpController::class,'index']);
+Route::middleware('auth:sanctum')->group(function () {
+
+    Route::get('/otp_generation', [OtpController::class, 'otpGeneration']);
+    Route::post('/logout', [UserController::class, 'logout']);
 
 });
-
