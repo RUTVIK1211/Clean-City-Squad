@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddAreaIdToUsersTable extends Migration
+class CreateAreaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class AddAreaIdToUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-            $table->unsignedBigInteger('area_id')->nullable();
-            $table->foreign('area_id')->references('id')->on('areas');
+        Schema::create('area', function (Blueprint $table) {
+            $table->id();
+            $table->text('name');
+            $table->timestamps();
         });
     }
 
@@ -27,8 +27,6 @@ class AddAreaIdToUsersTable extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('area');
     }
 }
