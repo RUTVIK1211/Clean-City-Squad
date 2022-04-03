@@ -17,6 +17,7 @@ class CreateOtpTable extends Migration
             $table->id();
             $table->unsignedBigInteger('phone_number');
             $table->integer('otp_number');
+            $table->string('phone_number');
             $table->timestamps();
         });
     }
