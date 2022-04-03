@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Fetchdata;
 use App\Http\Controllers\OtpController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -26,3 +27,4 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [UserController::class, 'logout']);
 
 });
+Route::get('get-area',[Fetchdata::class , 'getArea']);
