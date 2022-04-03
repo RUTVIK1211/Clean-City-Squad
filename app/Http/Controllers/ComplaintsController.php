@@ -17,14 +17,7 @@ use Illuminate\Validation\ValidationException;
 class ComplaintsController extends Controller
 {
 
-    /**
-     * Display all complaints
-     * @return \Illuminate\Http\Response;
-     */
-    public function getallComplaints(){
-        $complaints=Complaint::paginate(100);
-        return $complaints;
-    }
+   
     /**
      * Post a complain
      */
@@ -42,7 +35,7 @@ class ComplaintsController extends Controller
             ]);
 
             $request['user_id'] = auth()->user()->id;
-            //$request['area_id'] = auth()->user()->area_id;
+          //  $request['area_id'] = auth()->user()->area_id;
 
             $complaint = complaint::create($request->all());
             if($complaint){
@@ -135,6 +128,27 @@ class ComplaintsController extends Controller
                 }
             } else{
                 return response()->json(['error' => 'oops complaint dose not exist'], 500);
+            }
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+     /**
+     * get a complaints
+     */
+    public function getallComplaints(){
+        try {
+            $complaints = Complaint::with('Resources')->get();
+            if(count($complaints) > 0 ){
+                foreach($complaints as $complaint){
+                    foreach($complaint->Resources as $resource){
+                        $resource->image_url = public_path('image').$resource->image_url;
+                    }
+                    $complaint['resources'] = $complaint->Resources;
+                }
+                return $complaints;
+            } else{
+                return response()->json(['error' => 'oops table is empty'], 500);
             }
         } catch (\Exception $e) {
             return response()->json(['error' => $e->getMessage()], 500);

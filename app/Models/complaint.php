@@ -14,3 +14,5 @@ class complaint extends Model
         return $this->hasMany(Resource::class, "complaint_id");
     }
 }
+
+
