@@ -583,3 +583,606 @@ Did you mean one of these?
 [stacktrace]
 #0 {main}
 "} 
+[2022-04-02 23:17:19] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:17:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:18:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:19:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:20:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:21:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:22:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:22:46] local.ERROR: Database connection [my-database.cgi7gyrtpphb.us-east-1.rds.amazonaws.com] not configured. {"exception":"[object] (InvalidArgumentException(code: 0): Database connection [my-database.cgi7gyrtpphb.us-east-1.rds.amazonaws.com] not configured. at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:161)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(124): Illuminate\\Database\\DatabaseManager->configuration()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(95): Illuminate\\Database\\DatabaseManager->makeConnection()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(211): Illuminate\\Database\\DatabaseManager->connection()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(167): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getConnection()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#15 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#17 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#18 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#19 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#22 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+"} 
+[2022-04-02 23:23:05] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = ccs and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = ccs and table_name = migrations and table_type = 'BASE TABLE') at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#15 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#17 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#18 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#19 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#22 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1100): Illuminate\\Database\\Connection->getPdo()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(442): Illuminate\\Database\\Connection->getReadPdo()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): Illuminate\\Database\\Connection->getPdoForSelect()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#25 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#27 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#28 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#29 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#32 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 {main}
+"} 
+[2022-04-02 23:23:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:24:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:25:16] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = ccs and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = ccs and table_name = migrations and table_type = 'BASE TABLE') at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#15 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#17 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#18 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#19 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#22 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1100): Illuminate\\Database\\Connection->getPdo()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(442): Illuminate\\Database\\Connection->getReadPdo()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): Illuminate\\Database\\Connection->getPdoForSelect()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#25 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#27 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#28 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#29 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#32 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 {main}
+"} 
+[2022-04-02 23:25:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:25:59] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = clean_city_squad and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = clean_city_squad and table_name = migrations and table_type = 'BASE TABLE') at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#15 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#17 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#18 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#19 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#22 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1100): Illuminate\\Database\\Connection->getPdo()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(442): Illuminate\\Database\\Connection->getReadPdo()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): Illuminate\\Database\\Connection->getPdoForSelect()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#25 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#27 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#28 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#29 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#32 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 {main}
+"} 
+[2022-04-02 23:26:29] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = clean_city_squad and table_name = migrations and table_type = 'BASE TABLE') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) (SQL: select * from information_schema.tables where table_schema = clean_city_squad and table_name = migrations and table_type = 'BASE TABLE') at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#15 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#17 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#18 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#19 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#22 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'14.99.102.226' (using password: YES) at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\\Database\\Connectors\\Connector->createPdoConnection()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect()
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1100): Illuminate\\Database\\Connection->getPdo()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(442): Illuminate\\Database\\Connection->getReadPdo()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): Illuminate\\Database\\Connection->getPdoForSelect()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\\Database\\Connection->run()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Schema/MySqlBuilder.php(44): Illuminate\\Database\\Connection->select()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(673): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(106): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(94): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call()
+#25 /var/www/html/Clean-City-Squad/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#27 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(1015): Illuminate\\Console\\Command->run()
+#28 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#29 /var/www/html/Clean-City-Squad/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#32 /var/www/html/Clean-City-Squad/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#33 {main}
+"} 
+[2022-04-02 23:26:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:27:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:28:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:29:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:30:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:31:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:32:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:33:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:34:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:35:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:36:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:37:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:38:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:39:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:40:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:41:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:42:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:43:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:44:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:45:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:46:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:47:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:48:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:49:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:50:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:51:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:52:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:53:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:54:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:55:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:56:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:57:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:58:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-02 23:59:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:00:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:01:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:02:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:03:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:04:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:05:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:06:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:07:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:08:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:09:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:10:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:11:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:12:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:13:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:14:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:15:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:16:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:17:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:18:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:19:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:20:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:21:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:22:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:23:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:24:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:25:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:26:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:27:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:28:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:29:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:30:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:31:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:32:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:33:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:33:41] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:34:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
