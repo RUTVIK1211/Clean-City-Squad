@@ -70,7 +70,7 @@ class UserController extends Controller
 
             $token = $user->createToken('myToken')->plainTextToken;
             return response([
-                //'user'=>$user,
+                'user'=>$user,
                 'token' => $token,
             ], 200);
         } catch (ValidationException $th) {
