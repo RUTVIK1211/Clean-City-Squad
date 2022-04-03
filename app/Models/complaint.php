@@ -7,7 +7,7 @@ use App\Models\Resource;
 
 class complaint extends Model
 {
-    protected $fillable = ['address_line_1','address_line_2','description','user_id','latitude','longitude','area_id','complaint_type_id'];
+    protected $fillable = ['address_line_1','address_line_2','description','status','user_id','latitude','longitude','area_id','complaint_type_id'];
 
     public function Resources()
     {

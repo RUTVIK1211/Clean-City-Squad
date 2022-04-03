@@ -18,4 +18,12 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+    Header add Access-Control-Allow-Origin "*"
+    <Directory /var/www/html/clean-city-squad/public>
+        Header set Access-Control-Allow-Origin "*"
+        Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+        Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+    </Directory>
+
 </IfModule>
