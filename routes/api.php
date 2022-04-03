@@ -30,7 +30,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/getComplaint/{id}',[ComplaintsController::class,'getComplaintById']);
     Route::POST('/updateComplaint/{id}',[ComplaintsController::class,'updateComplaint']);
     Route::delete('/deleteComplaint/{id}',[ComplaintsController::class,'deleteComplaint']);
-
+   
 });
 
 
