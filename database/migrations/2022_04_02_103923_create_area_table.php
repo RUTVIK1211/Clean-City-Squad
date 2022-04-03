@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddIsOtpVerifiedToUsersTable extends Migration
+class CreateAreaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class AddIsOtpVerifiedToUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-            $table->boolean('is_otp_verified')->after('password')->default(0);
-
+        Schema::create('area', function (Blueprint $table) {
+            $table->id();
+            $table->text('name');
+            $table->timestamps();
         });
     }
 
@@ -27,9 +27,6 @@ class AddIsOtpVerifiedToUsersTable extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-            $table->dropColumn('is_otp_verified');
-        });
+        Schema::dropIfExists('area');
     }
 }
