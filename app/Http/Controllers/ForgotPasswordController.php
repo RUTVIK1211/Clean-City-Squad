@@ -14,22 +14,22 @@ class ForgotPasswordController extends Controller
      */
     public function forgot()
     {
-        $credentials = request()->validate(['email' => 'required|email']);
-        $users = User::where('email', '=', $request->input('email'))->first();
+        // $credentials = request()->validate(['email' => 'required|email']);
+        // $users = User::where('email', '=', $request->input('email'))->first();
 
-        if ($users === null) {
-            // User does not exist
-            return response()->json(["message" => "Email ID does not exist."], 400);
-        } else {
-            // User exits
-        }
+        // if ($users === null) {
+        //     // User does not exist
+        //     return response()->json(["message" => "Email ID does not exist."], 400);
+        // } else {
+        //     // User exits
+        // }
         
-        if () {
-            Password::sendResetLink($credentials);
+        // if () {
+        //     Password::sendResetLink($credentials);
 
-        return response()->json(["message" => 'Reset password link sent on your email id.']);
+        // return response()->json(["message" => 'Reset password link sent on your email id.']);
            
-        }
+        // }
 
         
     }
