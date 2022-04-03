@@ -25,16 +25,12 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::get('/otp_generation', [OtpController::class, 'otpGeneration']);
     Route::post('/logout', [UserController::class, 'logout']);
+    Route::post('/postComplaint',[ComplaintsController::class,'postComplaint']);
+    Route::get('/getallComplaints',[ComplaintsController::class,'getallComplaints']);
+    Route::get('/getComplaint/{id}',[ComplaintsController::class,'getComplaintById']);
+    Route::POST('/updateComplaint/{id}',[ComplaintsController::class,'updateComplaint']);
+    Route::delete('/deleteComplaint/{id}',[ComplaintsController::class,'deleteComplaint']);
 
 });
 
-Route::get('/getallComplaints',[ComplaintsController::class,'getallComplaints']);
-
-Route::post('/postComplaint',[ComplaintsController::class,'postComplaint']);
-
-Route::get('/getComplaint/{id}',[ComplaintsController::class,'getComplaintById']);
-
-Route::put('/updateComplaint{id}',[ComplaintsController::class,'updateComplaint']);
-
-Route::delete('/deleteComplaint{id}',[ComplaintsController::class,'deleteComplaint']);
 
