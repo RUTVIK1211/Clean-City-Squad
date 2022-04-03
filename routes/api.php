@@ -24,6 +24,7 @@ Route::post('/login', [UserController::class, 'login']);
 //protected routes
 Route::post('/otp/verify', [OtpController::class, 'otpVerification']);
 
+
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [UserController::class, 'logout']);
     Route::post('/postComplaint', [ComplaintsController::class, 'postComplaint']);
@@ -34,5 +35,6 @@ Route::middleware('auth:sanctum')->group(function () {
 });
 Route::get('get-area', [Fetchdata::class, 'getArea']);
 Route::get('get-complain-type', [Fetchdata::class, 'getComplainType']);
-    Route::post('/password/reset', [ForgotPasswordController::class, 'reset']);
+Route::post('/password/reset', [ForgotPasswordController::class, 'reset']);
 Route::post('/password/forgot', [ForgotPasswordController::class, 'forgot']);
+Route::post('/reset-password',[UserController::class,'resetPassword']);

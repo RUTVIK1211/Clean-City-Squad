@@ -27,7 +27,7 @@ class UserController extends Controller
         $request->validate([
             'name' => 'required',
             'phone_number' => 'required',
-            'email' => 'required|email',
+            'email' => 'required|email|unique:users',
             'password' => 'required',
         ]);
 
@@ -37,17 +37,15 @@ class UserController extends Controller
 
         $user_phone_number = $request->phone_number;
         $demo = Nexmo::message()->send([
-            'to' => '91' . $user_phone_number,
+            'to' =>  '91' . $user_phone_number,
             'from' => '919638824606',
             'text' => $otp,
         ]);
 
         if ($demo) {
             Otp::create([
-
                 'phone_number' => $request->phone_number,
                 'otp_number' => $otp,
-
             ]);
         }
         return response()->json('OTP sent successfully!', 200);
@@ -90,9 +88,16 @@ class UserController extends Controller
 
         auth()->user()->tokens()->delete();
         return response()->json([
+            'status' => "success",
             'message' => 'successfully logged out!',
-        ]);
+
+        ],200);
 
     }
+
+
+
+
+
 
 }

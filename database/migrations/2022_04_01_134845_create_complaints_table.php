@@ -22,8 +22,9 @@ class CreateComplaintsTable extends Migration
             $table->decimal('longitude', 10,8);
             $table->text('address_line_1');
             $table->text('address_line_2');
+            $table->integer('area_id');
+            $table->integer('complain_id');
             $table->integer('status')->default('0');
-
             $table->timestamps();
         });
     }

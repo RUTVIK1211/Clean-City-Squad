@@ -32,12 +32,15 @@ class ComplaintsController extends Controller
                 'latitude' => 'required',
                 'address_line_1' => 'required',
                 'address_line_2' => 'required',
+                'area_id' => 'required',
+                'complaint_type_id' => 'required'
             ]);
 
             $request['user_id'] = auth()->user()->id;
           //  $request['area_id'] = auth()->user()->area_id;
 
             $complaint = complaint::create($request->all());
+            
             if($complaint){
                 if($files=$request->file('image')){
                     $saveFlag = true;
@@ -46,7 +49,6 @@ class ComplaintsController extends Controller
                         $time = date_format($var, 'YmdHis');
                         $imageName = $time . '-' . $file->getClientOriginalName();
                         $file->move(public_path('image'), $imageName);
-
                         $complaint_resource['complaint_id'] = $complaint->id;
                         $complaint_resource['image_url'] = $imageName;
                         $complaint_resource_created = Resource::create($complaint_resource);
