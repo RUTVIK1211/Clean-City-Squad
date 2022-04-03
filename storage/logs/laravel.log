@@ -1330,3 +1330,335 @@ Did you mean one of these?
 [stacktrace]
 #0 {main}
 "} 
+[2022-04-03 01:10:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:11:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:12:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:13:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:14:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:15:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:16:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:17:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:18:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:19:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:20:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:21:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:22:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:23:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:24:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:25:15] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at /var/www/html/Clean-City-Squad/routes/api.php:33)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(163): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/Clean-City-Squad/app/Providers/RouteServiceProvider.php(44): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(927): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(905): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(906): array_walk()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2022-04-03 01:25:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at /var/www/html/Clean-City-Squad/routes/api.php:34)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(163): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/Clean-City-Squad/app/Providers/RouteServiceProvider.php(44): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(927): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(905): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(906): array_walk()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2022-04-03 01:25:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:25:50] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:26:16] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:26:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:27:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:28:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:28:58] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
+#1 /var/www/html/Clean-City-Squad/app/Http/Middleware/Authenticate.php(18): route()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(83): App\\Http\\Middleware\\Authenticate->redirectTo()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(68): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(42): Illuminate\\Auth\\Middleware\\Authenticate->authenticate()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->Laravel\\Sanctum\\Http\\Middleware\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(34): Illuminate\\Pipeline\\Pipeline->then()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->handle()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(723): Illuminate\\Pipeline\\Pipeline->then()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router->runRouteWithinStack()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\\Routing\\Router->runRoute()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(651): Illuminate\\Routing\\Router->dispatchToRoute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#28 /var/www/html/Clean-City-Squad/vendor/fruitcake/laravel-cors/src/HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#32 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#34 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#35 /var/www/html/Clean-City-Squad/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#36 /var/www/html/Clean-City-Squad/server.php(21): require_once('/var/www/html/C...')
+#37 {main}
+"} 
+[2022-04-03 01:29:29] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
+#1 /var/www/html/Clean-City-Squad/app/Http/Middleware/Authenticate.php(18): route()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(83): App\\Http\\Middleware\\Authenticate->redirectTo()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(68): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(42): Illuminate\\Auth\\Middleware\\Authenticate->authenticate()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->Laravel\\Sanctum\\Http\\Middleware\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(34): Illuminate\\Pipeline\\Pipeline->then()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->handle()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(723): Illuminate\\Pipeline\\Pipeline->then()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router->runRouteWithinStack()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\\Routing\\Router->runRoute()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(651): Illuminate\\Routing\\Router->dispatchToRoute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#28 /var/www/html/Clean-City-Squad/vendor/fruitcake/laravel-cors/src/HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#32 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#34 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#35 /var/www/html/Clean-City-Squad/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#36 /var/www/html/Clean-City-Squad/server.php(21): require_once('/var/www/html/C...')
+#37 {main}
+"} 
+[2022-04-03 01:29:30] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\\Routing\\UrlGenerator->route()
+#1 /var/www/html/Clean-City-Squad/app/Http/Middleware/Authenticate.php(18): route()
+#2 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(83): App\\Http\\Middleware\\Authenticate->redirectTo()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(68): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(42): Illuminate\\Auth\\Middleware\\Authenticate->authenticate()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(33): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->Laravel\\Sanctum\\Http\\Middleware\\{closure}()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(34): Illuminate\\Pipeline\\Pipeline->then()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->handle()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(723): Illuminate\\Pipeline\\Pipeline->then()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router->runRouteWithinStack()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\\Routing\\Router->runRoute()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(651): Illuminate\\Routing\\Router->dispatchToRoute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#28 /var/www/html/Clean-City-Squad/vendor/fruitcake/laravel-cors/src/HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#32 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#34 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#35 /var/www/html/Clean-City-Squad/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#36 /var/www/html/Clean-City-Squad/server.php(21): require_once('/var/www/html/C...')
+#37 {main}
+"} 
+[2022-04-03 01:29:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:30:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:31:15] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:31:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:32:09] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:32:19] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:38:55] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at /var/www/html/Clean-City-Squad/app/Http/Controllers/Fetchdata.php:25)
+[stacktrace]
+#0 /var/www/html/Clean-City-Squad/vendor/composer/ClassLoader.php(428): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 [internal function]: spl_autoload_call()
+#3 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#4 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#5 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\\Container\\Container->resolve()
+#6 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#7 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\\Container\\Container->make()
+#8 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Route.php(276): Illuminate\\Foundation\\Application->make()
+#9 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1069): Illuminate\\Routing\\Route->getController()
+#10 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#11 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(734): Illuminate\\Routing\\Route->gatherMiddleware()
+#12 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(714): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#13 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\\Routing\\Router->runRouteWithinStack()
+#14 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\\Routing\\Router->runRoute()
+#15 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Routing/Router.php(651): Illuminate\\Routing\\Router->dispatchToRoute()
+#16 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Illuminate\\Routing\\Router->dispatch()
+#17 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#18 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#21 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#23 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#24 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#26 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#28 /var/www/html/Clean-City-Squad/vendor/fruitcake/laravel-cors/src/HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#30 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#32 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then()
+#34 /var/www/html/Clean-City-Squad/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#35 /var/www/html/Clean-City-Squad/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#36 /var/www/html/Clean-City-Squad/server.php(21): require_once('/var/www/html/C...')
+#37 {main}
+"} 
