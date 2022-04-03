@@ -27,7 +27,7 @@ class UserController extends Controller
             'name' => 'required',
             'phone_number' => 'required',
             'email' => 'required|email',
-            'password' => 'required|confirmed',
+            'password' => 'required',
         ]);
 
         
@@ -48,17 +48,17 @@ class UserController extends Controller
         }
 
 
-        // $user = User::create([
-        //     'name' => $request->name,
-        //     'phone_number' => $request->phone_number,
-        //     'email' => $request->email,
-        //     'password' => Hash::make($request->password),
-        // ]);
-        // $token = $user->createToken('myToken')->plainTextToken;
-        // return response([
-        //     'user' => $user,
-        //     'token' => $token,
-        // ], 201);
+        $user = User::create([
+            'name' => $request->name,
+            'phone_number' => $request->phone_number,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+        ]);
+        $token = $user->createToken('myToken')->plainTextToken;
+        return response([
+            'user' => $user,
+            'token' => $token,
+        ], 201);
     }
 
     /**
