@@ -7,20 +7,41 @@ use Illuminate\Support\Facades\Password;
 
 class ForgotPasswordController extends Controller
 {
-    //
+    /**
+     * Forgot password function
+     *
+     * @return void
+     */
     public function forgot()
     {
         $credentials = request()->validate(['email' => 'required|email']);
+        $users = User::where('email', '=', $request->input('email'))->first();
 
-        Password::sendResetLink($credentials);
+        if ($users === null) {
+            // User does not exist
+            return response()->json(["message" => "Email ID does not exist."], 400);
+        } else {
+            // User exits
+        }
+        
+        if () {
+            Password::sendResetLink($credentials);
 
-        return response()->json(["msg" => 'Reset password link sent on your email id.']);
+        return response()->json(["message" => 'Reset password link sent on your email id.']);
+           
+        }
+
+        
     }
 
+    /**
+     * Reset password
+     *
+     * @return void
+     */
     public function reset()
     {
         $credentials = request()->validate([
-            'email' => 'required|email',
             'token' => 'required|string',
             'password' => 'required|string',
         ]);
@@ -31,9 +52,9 @@ class ForgotPasswordController extends Controller
         });
 
         if ($reset_password_status == Password::INVALID_TOKEN) {
-            return response()->json(["msg" => "Invalid token provided"], 400);
+            return response()->json(["message" => "Invalid token provided"], 400);
         }
 
-        return response()->json(["msg" => "Password has been successfully changed"]);
+        return response()->json(["message" => "Password has been successfully changed"]);
     }
 }

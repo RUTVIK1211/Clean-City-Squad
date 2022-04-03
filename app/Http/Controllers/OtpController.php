@@ -2,34 +2,71 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Otp;
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Laravel\Sanctum\HasApiTokens;
-use Nexmo\Laravel\Facade\Nexmo;
 
 class OtpController extends Controller
 {
     //
     use HasApiTokens;
+
     /**
-     * Otp generation function
-     *
-     * @return void
+
+     * Verify OTP
+
      */
-    public function otpGeneration()
+
+    public function otpVerification(Request $request)
     {
 
-        $otp = rand(100000,999999);
+        $request->validate([
 
-        try {
-            Nexmo::message()->send([
-                'to' => '919106664085',
-                'from' => '919638824606',
-                'text' => $otp,
+            'name' => 'required',
+            'phone_number' => 'required',
+            'email' => 'required|email',
+            'password' => 'required',
+            'otp_number' => 'required',
+
+        ]);
+
+        //check in user table where number and in otp table if otp matches
+
+        //if not matching return error
+
+        //else reset
+
+        $otp = Otp::where(['phone_number' => $request->phone_number, 'otp_number' => $request->otp_number])->first();
+
+        if ($otp) {
+
+            $otp->delete();
+
+            $user = User::create([
+
+                'name' => $request->name,
+                'phone_number' => $request->phone_number,
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+                'is_otp_verified' => 1,
+
             ]);
 
-            
+            $token = $user->createToken('myToken')->plainTextToken;
 
-        } catch (\Throwable $th) {
-            return response('There was an error in sending the OTP.', 500);
+            return response()->json([
+
+                'user' => $user,
+
+                'token' => $token,
+
+            ], 201);
+
+        } else {
+            return response()->json(['status' => "Failed", "message" => 'Otp unverified'], 422);
         }
+
     }
 }

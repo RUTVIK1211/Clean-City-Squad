@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Otp;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -30,35 +31,26 @@ class UserController extends Controller
             'password' => 'required',
         ]);
 
-        
-        $otp = rand(100000,999999);
+        $otp = rand(100000, 999999);
 
-        try {
-            Nexmo::message()->send([
-                'to' => '919638824606',
-                'from' => '919638824606',
-                'text' => $otp,
-            ]);
+        // try {
 
-            return response('OTP sent successfully!',200);
-
-        
-        } catch (\Throwable $th) {
-            return response('There was an error in sending the OTP.', 500);
-        }
-
-
-        $user = User::create([
-            'name' => $request->name,
-            'phone_number' => $request->phone_number,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
+        $user_phone_number = $request->phone_number;
+        $demo = Nexmo::message()->send([
+            'to' => '91' . $user_phone_number,
+            'from' => '919638824606',
+            'text' => $otp,
         ]);
-        $token = $user->createToken('myToken')->plainTextToken;
-        return response([
-            'user' => $user,
-            'token' => $token,
-        ], 201);
+
+        if ($demo) {
+            Otp::create([
+
+                'phone_number' => $request->phone_number,
+                'otp_number' => $otp,
+
+            ]);
+        }
+        return response()->json('OTP sent successfully!', 200);
     }
 
     /**
@@ -75,13 +67,13 @@ class UserController extends Controller
         ]);
         $user = User::where('phone_number', $request->phone_number)->first();
         if (!$user || !Hash::check($request->password, $user->password)) {
-            return response([
+            return response()->json([
                 'message' => 'Invalid credentials',
             ], 401);
         }
 
         $token = $user->createToken('myToken')->plainTextToken;
-        return response([
+        return response()->json([
             //'user'=>$user,
             'token' => $token,
         ], 200);
@@ -97,7 +89,7 @@ class UserController extends Controller
     {
 
         auth()->user()->tokens()->delete();
-        return response([
+        return response()->json([
             'message' => 'successfully logged out!',
         ]);
 
