@@ -1186,3 +1186,147 @@ Did you mean one of these?
 [stacktrace]
 #0 {main}
 "} 
+[2022-04-03 00:35:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:36:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:37:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:38:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:39:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:40:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:41:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:42:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:43:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:44:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:45:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:46:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:47:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:48:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:49:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:50:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:51:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:52:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:53:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:54:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:55:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:56:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:57:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:58:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 00:59:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:00:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:01:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:02:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:03:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:04:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:05:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:06:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:07:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:08:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:09:34] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2022-04-03 01:09:35] local.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at /var/www/html/Clean-City-Squad/app/Models/User.php:24)
+[stacktrace]
+#0 {main}
+"} 
