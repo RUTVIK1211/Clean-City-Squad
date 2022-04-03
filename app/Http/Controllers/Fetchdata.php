@@ -20,7 +20,7 @@ class Fetchdata extends Controller
     public function getComplainType()
     {
         try {
-            $data = Complaintype::all()->toArray();
+            return Complaintype::all()->toArray();
         } catch (Exception $th) {
             return response()->json(['status' => 'Failed', 'message' => 'No Data Found'], 500);
         }

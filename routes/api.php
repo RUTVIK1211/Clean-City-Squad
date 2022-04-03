@@ -28,3 +28,4 @@ Route::middleware('auth:sanctum')->group(function () {
 
 });
 Route::get('get-area',[Fetchdata::class , 'getArea']);
+Route::get('get-complain-type',[Fetchdata::class , 'getComplainType']);
