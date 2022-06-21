@@ -16,7 +16,7 @@ class CreateResourcesTable extends Migration
         Schema::create('resources', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('complaint_id');
-            $table->foreign('complaint_id')->references('id')->on('complaints');
+            $table->foreign('complaint_id')->references('id')->on('complaints')->onDelete('cascade');
             $table->string('image_url');
             $table->timestamps();
         });

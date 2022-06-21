@@ -6,3 +6,29 @@ Collection and Dumping of Garbage is one ofthe serious problems we face nowadays
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Requirement
+PHP version 7.4
+Mysql 8.0
+Laravel 8
+
+## Reference Data
+
+Postman Url : https://www.getpostman.com/collections/c5fe3bd432b89ec982c7
+WebSite Url : https://binarybrains.simform.solutions/
+
+## Instaltion 
+
+ Composer update
+ Copy .env <- .env.example
+ update database
+
+ php artisan migrate
+
+ php artisan serve
+
+
+
+## ppt link 
+https://simformsolutionspvtltd-my.sharepoint.com/:p:/g/personal/sakshi_g_simformsolutions_com/ERGqgW2YRIJLkN9xHFylrqwBsrV3URNohYTL9bVzY9_Xxg?email=rutvik.b%40simformsolutions.com&e=4%3AsTsSBm&at=9&CID=99976568-5434-989a-6e70-919cb503d270
+
