@@ -21,9 +21,14 @@ WebSite Url : https://binarybrains.simform.solutions/
 
  Composer update
  Copy .env <- .env.example
+ update database
+
+ php artisan migrate
 
  php artisan serve
 
 
 
+## ppt link 
+https://simformsolutionspvtltd-my.sharepoint.com/:p:/g/personal/sakshi_g_simformsolutions_com/ERGqgW2YRIJLkN9xHFylrqwBsrV3URNohYTL9bVzY9_Xxg?email=rutvik.b%40simformsolutions.com&e=4%3AsTsSBm&at=9&CID=99976568-5434-989a-6e70-919cb503d270
 

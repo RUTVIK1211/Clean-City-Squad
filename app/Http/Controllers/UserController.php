@@ -37,7 +37,7 @@ class UserController extends Controller
 
         $user_phone_number = $request->phone_number;
         $demo = Nexmo::message()->send([
-            'to' =>  '91' . $user_phone_number,
+            'to' => '91' . $user_phone_number,
             'from' => '919638824606',
             'text' => $otp,
         ]);
@@ -91,13 +91,8 @@ class UserController extends Controller
             'status' => "success",
             'message' => 'successfully logged out!',
 
-        ],200);
+        ], 200);
 
     }
-
-
-
-
-
 
 }
